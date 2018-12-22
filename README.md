@@ -2,5 +2,5 @@
 Integrantes:
 Emilio Moran
 Eduardo Ortiz
-Stefanny Vallejo
+Steffany Vallejo
 Luis Toro
