@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Unidad Educativa Alfredo Veintimilla Moscozo</title>
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <header class="col-md-12 col-sm-12 header_principal">
+          <img class = "col-md-1 col-sm-1 img-fluid" src="../static/img/logo.jpeg" alt="logo">
+          <h1 class="col-md-8 col-sm-12 texto header_h1">UNIDAD EDUCATIVA<br>ALFREDO VEINTIMILLA MOSCOZO</h1>
+          <div class="col-md-3 col-sm-3 icon-social">
+            <a href="#" class="fa fa-google icon-social"></a>
+            <a href="#" class="fa fa-twitter icon-social"></a>
+            <a href="#" class="fa fa-facebook icon-social"></a>
+          </div>
+        </header>  
+      </div>
+      <div class="row sticky-top">
+        <nav class="navegacion navbar navbar-expand-sm navbar-light col-xl-12">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuPrincipal">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="menuPrincipal" class="collapse navbar-collapse justify-content-end">
+                <ul class="list-inline navbar-nav w-100">
+                    <li class="list-inline-item nav-item active px-2 mr-auto"><a class="nav-link texto navegacion_element" href="index.html">INICIO</a></li>
+                    <li class="list-inline-item nav-item px-2"><a class="nav-link texto navegacion_element" href="login_profesor.html">PROFESOR</a></li>
+                    <li class="list-inline-item nav-item px-2"><a class="nav-link texto navegacion_element" href="linea_tiempo.html">HISTORIA</a></li>
+                    <li class="list-inline-item nav-item px-2"><a class="nav-link texto navegacion_element" href="quienes_somos.html">¿QUIENES SOMOS?</a></li>
+                    <li class="list-inline-item nav-item px-2"><a class="nav-link texto navegacion_element" href="que_hacemos.html">¿QUE HACEMOS?</a></li>
+                </ul>
+            </div>
+        </nav>
+      </div>      
+      <div class="principal row">
+        <section class="col-md-12 col-sm-12">
+          <div class="row">
+            <div class="col-md-8 col-sm-8">
+              <figure class="col-md-12 col-sm-12">
+                <img class="col-md-12 col-sm-12 img-fluid" src="../static/img/portada.JPG" alt="">        
+              </figure>
+              <!--<a class="col-md-12 col-sm-12 portada" href="https://placeholder.com"><img class="col-12 col-sm-12" src="https://via.placeholder.com/520x230" alt="imagen escuela"></a>-->          
+            </div>
+            <div class="col-md-4 col">
+              <article class="col-md-12 col-sm-12">
+                <h2 class="col-md-12 col-sm-12 caja_noticia texto">NOTICIAS</h2>
+                <h3 class="col-md-12 col-sm-12" id="titulo_noticia"></h3>
+                <p class="col-md-12 col-sm-12 texto" id="descripcion_noticia"></p>
+                <div class="col-md_12 col-sm-12 div_arrow">
+                   <button id="id_cambiar" class="btn btn-primary btn-change">&#8250;</button>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-sm-12">
+              <article class="col-md-12 col-sm-12">
+                <h2 class="col-md-12 col-sm-12 caja_mapa">¿DONDE UBICARNOS?</h2>              
+                <div class="col-md-12 col-sm-12 div_map" id="googleMap"></div>
+              </article>    
+            </div>
+          </div>
+        </section>  
+      </div>
+      <div class="row">
+        <footer class="page-footer col-md-12 col-sm-12">
+          <a class="texto footer_a" href="contactanos.html">CONTACTANOS</a>
+          <p class="texto footer_p">Unidad Educativa Alfredo Veintimilla Moscozo © 2018. Todos los derechos reservados.</p>
+        </footer>
+      </div>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB82ZlwAmhclE5UT8a5ULc-wZhC9QKOT8Q&callback=myMap"></script>
+    <script src="../static/js/funcionalidades.js"></script>
+  </body>
+</html>
