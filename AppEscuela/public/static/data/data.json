@@ -1,0 +1,107 @@
+[
+    {
+        "categorie": "Matematicas A1", 
+        "values": [
+            {
+                "value": 0, 
+                "rate": "Nota leccion"
+            }, 
+            {
+                "value": 4, 
+                "rate": "Nota deber"
+            }, 
+            {
+                "value": 12, 
+                "rate": "Nota examen"
+            }, 
+            {
+                "value": 6, 
+                "rate": "Nota final"
+            }
+        ]
+    }, 
+    {
+        "categorie": "Matematicas A2", 
+        "values": [
+            {
+                "value": 1, 
+                "rate": "Nota leccion"
+            }, 
+            {
+                "value": 21, 
+                "rate": "Nota deber"
+            }, 
+            {
+                "value": 13, 
+                "rate": "Nota examen"
+            }, 
+            {
+                "value": 18, 
+                "rate": "Nota final"
+            }
+        ]
+    }, 
+    {
+        "categorie": "Matematicas A3", 
+        "values": [
+            {
+                "value": 3, 
+                "rate": "Nota leccion"
+            }, 
+            {
+                "value": 22, 
+                "rate": "Nota deber"
+            }, 
+            {
+                "value": 6, 
+                "rate": "Nota examen"
+            }, 
+            {
+                "value": 15, 
+                "rate": "Nota final"
+            }
+        ]
+    }, 
+    {
+        "categorie": "Fisica A1", 
+        "values": [
+            {
+                "value": 12, 
+                "rate": "Nota leccion"
+            }, 
+            {
+                "value": 7, 
+                "rate": "Nota deber"
+            }, 
+            {
+                "value": 18, 
+                "rate": "Nota examen"
+            }, 
+            {
+                "value": 13, 
+                "rate": "Nota final"
+            }
+        ]
+    }, 
+    {
+        "categorie": "Fisica A2", 
+        "values": [
+            {
+                "value": 6, 
+                "rate": "Nota leccion"
+            }, 
+            {
+                "value": 15, 
+                "rate": "Nota deber"
+            }, 
+            {
+                "value": 9, 
+                "rate": "Nota examen"
+            }, 
+            {
+                "value": 12, 
+                "rate": "Nota final"
+            }
+        ]
+    }
+]

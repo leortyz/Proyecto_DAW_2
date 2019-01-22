@@ -1,0 +1,22 @@
+[
+	{
+		"codigo":1,
+		"nombres":"CARLA",
+		"apellidos":"MORALES",
+		"cedula":"0987654321",
+		"notaLeccion":10,
+		"notaDeber":8,
+		"notaExamen":9,	
+		"notaFinal":9.5,
+	},
+	{
+		"codigo":2,
+		"nombres":"JOSE",
+		"apellidos":"ORELLANA",
+		"cedula":"1234567890",
+		"notaLeccion":8,
+		"notaDeber":6,
+		"notaExamen":7,	
+		"notaFinal":7.5,
+	}
+]
